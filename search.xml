@@ -32,7 +32,7 @@
       </tags>
   </entry>
   <entry>
-    <title>Educational Codeforces Round 157 (Rated for Div. 2)</title>
+    <title>Codeforces Round 908 (Div. 2)</title>
     <url>/2023/11/08/cf%20908(d2)/</url>
     <content><![CDATA[<h1 id="Codeforces-Round-908-Div-2"><a href="#Codeforces-Round-908-Div-2" class="headerlink" title="Codeforces Round 908 (Div. 2)"></a>Codeforces Round 908 (Div. 2)</h1><h3 id="A-Secret-Sport"><a href="#A-Secret-Sport" class="headerlink" title="A - Secret Sport"></a>A - Secret Sport</h3><p>赢下最后一局才会胜利结束游戏，最后一局的胜者是赢家</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;bits/stdc++.h&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">#define int long long</span><br><span class="line">const int N=2e6+5;</span><br><span class="line">void solve()&#123;</span><br><span class="line">    int n;cin&gt;&gt;n;</span><br><span class="line">    string s;cin&gt;&gt;s;</span><br><span class="line">    cout&lt;&lt;s[n-1]&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line">signed main()</span><br><span class="line">&#123;</span><br><span class="line">    ios::sync_with_stdio(false);</span><br><span class="line">    cin.tie(NULL);</span><br><span class="line">    cout.tie(NULL);</span><br><span class="line">    int t=1;</span><br><span class="line">    cin&gt;&gt;t;</span><br><span class="line">    while(t--)solve();</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
